@@ -1,0 +1,58 @@
+﻿@{
+}
+
+<div class="container mx-5 d-flex justify-content-center align-items-center vh-100">
+    <form asp-action="Register" method="post">
+        <div class="row">
+            <label for="Name" class="form-label col">Name</label>
+            <input type="text" class="form-control col" name="Name" id="Name" />
+        </div>
+        <div class="row">
+            <label for="Email" class="form-label col">Email</label>
+            <input type="email" class="form-control col" name="Email" id="Email" />
+        </div>
+        <div class="row">
+            <label for="Password" class="form-label col">Password</label>
+            <input type="password" class="form-control col" name="Password" id="Password" />
+        </div>
+        <div class="row">
+            <label for="ConfirmPassword" class="form-label col">Confirm Password</label>
+            <input type="password" class="form-control col" id="ConfirmPassword" name="ConfirmPassword" />
+            <span id="passwordError" class="text-danger"></span>
+        </div>
+        <div class="row">
+            <label for="UserName" class="form-label col">UserName</label>
+            <input type="text" class="form-control col" name="UserName" id="UserName" />
+        </div>
+        <button type="submit" class="btn btn-primary rounded mt-2">Register</button>
+    </form>
+</div>
+
+
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const form = document.querySelector("form");
+
+        form.addEventListener("submit", function (event) {
+            const password = document.getElementById("Password").value;
+            const confirmPassword = document.getElementById("ConfirmPassword").value;
+
+            if (password !== confirmPassword) {
+                alert("Password and Confirm Password do not match");
+                event.preventDefault(); 
+            }
+
+            const inputFields = document.querySelectorAll("input[type='text'], input[type='email'], input[type='password']");
+
+            for (const inputField of inputFields) {
+                if (inputField.value.trim() === "") {
+                    alert("All fields must be filled out");
+                    event.preventDefault(); 
+                    break; 
+                }
+            }
+        });
+    });
+</script>
+
