@@ -10,5 +10,9 @@ namespace HealthRX.EF
         }
 
         public DbSet<User> Users { get; set; }
+
+        public DbSet<Product> Products { get; set; }
+
+        public DbSet<Catagory> Catagories{ get; set; }
     }
 }

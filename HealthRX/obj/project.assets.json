@@ -2893,24 +2893,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\HP\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Azizul Hakim\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\codes\\adv c#\\HealthRX\\HealthRX\\HealthRX.csproj",
+      "projectUniqueName": "E:\\Dotnet_Projects\\HealthRX\\HealthRX\\HealthRX\\HealthRX.csproj",
       "projectName": "HealthRX",
-      "projectPath": "G:\\codes\\adv c#\\HealthRX\\HealthRX\\HealthRX.csproj",
-      "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "G:\\codes\\adv c#\\HealthRX\\HealthRX\\obj\\",
+      "projectPath": "E:\\Dotnet_Projects\\HealthRX\\HealthRX\\HealthRX\\HealthRX.csproj",
+      "packagesPath": "C:\\Users\\Azizul Hakim\\.nuget\\packages\\",
+      "outputPath": "E:\\Dotnet_Projects\\HealthRX\\HealthRX\\HealthRX\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Azizul Hakim\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
